@@ -88,8 +88,8 @@ function refreshTimeSeries() {
   	}
   	// begin[wwu]
   	else if (dataType == DataTypes.intraday) {
-    	var activities = ["activities/log/steps", "activities/log/calories"];
-    	var intradays = ["activities-log-steps-intraday", "activities-log-calories-intraday"];
+    	var activities = ["activities/log/steps", "activities/log/calories", "activities/log/floors", "activities/log/elevation"];
+    	var intradays = ["activities-log-steps-intraday", "activities-log-calories-intraday", "activities-log-floors-intraday", "activities-log-elevation-intraday"];
 
   	}
 	var lastIndex = 0;
